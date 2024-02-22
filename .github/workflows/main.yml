@@ -11,6 +11,8 @@ jobs:
           Write-Output " `e[31m Red text `e[0m "
           Write-Output "Yellow `e[43;30m Background with Blue Text `e[0m"
           Write-Output "`e[106;30mLight Cyan Background with Black Text`e[0m"
+          Write-Output "`e[31;43;5mRed on Yellow Blinking Text`e[0m"
+
 
 
 
