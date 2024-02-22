@@ -6,5 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: display
+        shell: pwsh
         run: |
-          echo -e "normal \e[31mRed"
+          Write-Host "Red text" -ForegroundColor Red
