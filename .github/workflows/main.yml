@@ -8,4 +8,5 @@ jobs:
       - name: display
         shell: pwsh
         run: |
-          Write-Output "Red text" -ForegroundColor Red
+          Write-Output "`e[31mRed text`e[0m"
+
