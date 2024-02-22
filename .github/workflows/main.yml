@@ -9,7 +9,7 @@ jobs:
         shell: pwsh
         run: |
           Write-Output " `e[31m Red text `e[0m "
-          Write-Output "`e[43;34mYellow Background with Blue Text`e[0m"
+          Write-Output "Yellow `e[43;34m Background with Blue Text `e[0m"
           Write-Output "`e[106;30mLight Cyan Background with Black Text`e[0m"
 
 
