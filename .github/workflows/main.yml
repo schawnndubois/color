@@ -8,4 +8,4 @@ jobs:
       - name: display
         shell: pwsh
         run: |
-          Write-Host "Red text" -ForegroundColor Red
+          Write-Output "Red text" -ForegroundColor Red
