@@ -8,5 +8,5 @@ jobs:
       - name: display
         shell: pwsh
         run: |
-          Write-Output "`e[31mRed text`e[0m"
+          Write-Output " 'e[31m Red text 'e[0m "
 
