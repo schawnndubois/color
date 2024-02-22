@@ -9,6 +9,6 @@ jobs:
         shell: pwsh
         run: |
           Write-Output " `e[31m Red text `e[0m "
-          Write-Output "`e[BackgroundCode;TextColormYour Text`e[0m"
+          Write-Output "`e[43;31 Text`e[0m"
 
 
