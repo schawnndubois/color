@@ -1,0 +1,10 @@
+name: jou
+on: [push]
+
+jobs:
+  color:
+    runs-on: ubuntu-latest
+    steps:
+      - name: display
+        run: |
+          echo -e "normal \e[31mRed"
